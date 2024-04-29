@@ -144,7 +144,6 @@ function renderTeamPage(teamName)
         teamPageHtml += populateStatsSection(data["LiveScore"], data["Statistics"])
         teamPageHtml += populateGameSection(data["Games"])
 
-        console.log(teamPageHtml);
         document.getElementById("mainContainer").innerHTML = teamPageHtml;
 
     });
