@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <title>Hoop Vids - Home</title>
+        <link rel="stylesheet" type="text/css" href="styles/general.css">
+        <link rel="stylesheet" type="text/css" href="styles/text.css">
+        
+        <script src="./scripts/makeCalls.js"></script>
+        <script src="./scripts/apiCalls.js"></script>
+        <script src="./scripts/renderPages.js"></script>
+
+    </head>
+
+    <body onload="renderTeamBoxOptions()">
+
+        <!--Menu-->
+        <div class="menuContainer">
+            <div class="menuContainerFlex">
+                <div>
+                    <a href="./index.html">Home</a>
+                </div>
+                <div class="menuSelectionContainer">
+                    <p>About Us</p>
+                    <p>Supported Teams</p>
+                    <p>Who we Are</p>
+                </div>
+            </div>
+        </div>
+
+        <span id="mainContainer">
+            <div class="sectionTitle">
+                <p class="title">Choose Team To Watch</p>
+            </div>
+            
+            <!--Team Selection-->
+            <div class="teamSelectionContainer">
+                <div class="teamSelectionContainerFlex">
+
+                    <div id="teamOptionsContainer" class="teamSelectionContainerGrid">
+
+                    </div>
+                </div>
+            </div>
+        </span>
+    </body>
+
+</html>
