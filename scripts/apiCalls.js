@@ -1,8 +1,8 @@
 
 var ERROR_FLAG = "ERROR";
 
-var getTeamsEndPoint = "http://ec2-3-128-18-187.us-east-2.compute.amazonaws.com/teams";
-var getTeamDataEndPoint = "http://ec2-3-128-18-187.us-east-2.compute.amazonaws.com/getTeamData"
+var getTeamsEndPoint = "https://test-backend-api.com/teams";
+var getTeamDataEndPoint = "https://test-backend-api.com/getTeamData"
 
 function endpointCall(endpoint=null, params="", callBack=null)
 {
